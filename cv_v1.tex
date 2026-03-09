@@ -1,0 +1,146 @@
+%-------------------------
+% Jake's Resume Style — adapted for Diogo N. Moura
+% Based on: github.com/jakegut/resume (MIT License)
+%-------------------------
+\documentclass[a4paper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+% PDF unicode
+\pdfgentounicode=1
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-3pt}
+}
+\newcommand{\resumeSubheadingNote}[5]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \\
+    \end{tabular*}\vspace{-3pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, topsep=0pt, itemsep=14pt, parsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, itemsep=1pt, parsep=0pt, topsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+%-------------------------------------------
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Diogo N. Moura} \\ \vspace{4pt}
+    \small (+351) 91 667 4744 $|$
+    \href{mailto:diogonmoura@gmail.com}{\underline{diogonmoura@gmail.com}} $|$
+    \href{https://about.me/diogonmoura/}{\underline{about.me/diogonmoura}} $|$
+    Lisbon, Portugal
+\end{center}
+%-----------PROFILE-----------
+\section{Professional Profile}
+\small{Strategy leader with 10$+$ years of experience across management consulting and corporate strategy in Automotive, Technology and Energy sector. Proven track record of advising Executive Boards and CEOs, driving cross-border expansion across multiple geographies, and leading large-scale organisational transformations at global scale. Adept at bridging strategic vision with operational execution across diverse international markets, leveraged in technology and Artificial Intelligence.}
+\vspace{2pt}
+%-----------EXPERIENCE-----------
+\section{Selected Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Mercedes-Benz.io}{Portugal}
+      {Senior $\rightarrow$ Lead Strategy $\rightarrow$ Head of Corporate Strategy \& Growth $|$ Executive Board Member}{2021 -- Present}
+      \resumeItemListStart
+        \resumeItem{\textbf{C-Suite Advisory:} Served as a trusted advisor to the Executive Board and CEO on critical strategic initiatives, translating complex challenges into prioritised roadmaps and ensuring successful implementation across the organisation.}
+        \resumeItem{\textbf{Internationalisation:} Led the strategic assessment of operational expansion into Eastern Europe and Latin America, evaluating market entry risks, regulatory landscapes, and resource requirements to inform executive decision-making.}
+        \resumeItem{\textbf{International Expansion:} Spearheaded the team that established the company's new Portugal office as part of a broader international growth strategy, increasing local headcount by 20\% within one year.}
+        \resumeItem{\textbf{Strategic Planning:} Developed and executed comprehensive workforce planning strategies enabling agile international scaling while maintaining operational excellence.}
+        \resumeItem{\textbf{Stakeholder Management:} Successfully managed relationships across all organisational levels and geographies, ensuring alignment and buy-in for cross-border strategic initiatives.}
+        \resumeItem{\textbf{AI Strategy:} Responsible for developing the company's internal AI strategy, defining its target operating model, governance framework, and roadmap for adoption across the organisation.}
+        \resumeItem{\textbf{Programme Recovery:} Took ownership of a critical Data Warehouse implementation project that had gone off-track, stabilised delivery, and successfully launched the programme to production.}
+        \resumeItem{\textbf{Cost Optimisation:} Contributed to an initiative delivering 55\% annual cost savings through strategic partnership management, resource optimisation, and efficient team sizing.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {EY Consulting}{Lisbon}
+      {Senior Consultant $\rightarrow$ Experienced Senior Consultant}{2017 -- 2021}
+      \resumeItemListStart
+        \resumeItem{\textbf{Sector Leadership:} Part of the founding team of a dedicated industry sector practice, overseeing all client projects and business development initiatives across Portugal, Angola, and Mozambique. Within 2 years, became the second biggest source of revenue in the company.}
+        \resumeItem{\textbf{Strategic Planning:} Developed and implemented a 10-year technology and innovation roadmap for a major utility client, aligning long-term business objectives with international market trends.}
+        \resumeItem{\textbf{Change Implementation:} Designed and executed large-scale transformation strategies impacting 3,000$+$ employees across multiple geographies, managing change at organisational and cultural levels.}
+        \resumeItem{\textbf{Programme Governance:} Led a PMO for a large-scale software implementation at a major postal company, overseeing 15$+$ concurrent initiatives with direct exposure to logistics and transportation operations, ensuring effective governance, risk management, and strategic alignment.}
+        \resumeItem{\textbf{Performance Improvement:} Achieved 35\% improvement in project margins through operational optimisation and proactive delivery management.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Accenture}{Lisbon \& Singapore}
+      {Consultant}{2015 -- 2017}
+      \resumeItemListStart
+        \resumeItem{\textbf{Global Implementation:} Delivered human capital management transformation projects spanning 25$+$ countries across Europe, Asia-Pacific, and the Americas, covering end-to-end process design, systems integration, and testing.}
+        \resumeItem{\textbf{International Team Leadership:} Led cross-functional teams across 8 Asia-Pacific countries in complex systems integration programmes, acting as primary liaison between functional, technical, and senior management stakeholders.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {McKinsey Forward Program}{Online}
+      {Executive Learning Program}{2024}
+    \resumeSubheading
+      {INSEAD}{Remote}
+      {Certificate in Executive Presence and Influence}{2022 -- 2023}
+    \resumeSubheading
+      {NOVA School of Business and Economics}{Lisbon}
+      {Post-Graduation in Applied Management --- \textit{Graduated with Distinction}}{2018 -- 2019}
+    \resumeSubheading
+      {Faculty of Engineering, University of Porto}{Porto}
+      {Integrated Master in Mechanical Engineering}{2009 -- 2014}
+  \resumeSubHeadingListEnd
+%-----------SKILLS-----------
+\section{Skills \& Languages}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Core Skills:}{ International Strategy \& Expansion, C-Suite Advisory, Cross-border Team Leadership, Change Management, Strategic Planning, Operational Excellence} \\
+     \textbf{Languages:}{ Portuguese (Native), English (Full Proficiency), Spanish (Basic)}
+    }}
+ \end{itemize}
+%-------------------------------------------
+\end{document}
